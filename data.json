@@ -47,21 +47,33 @@
     },
     {
       "id": 4,
-      "project_name": "Project 1",
-      "description": "Description of Project 1",
-      "technologies": ["Technology A", "Technology B"],
-      "live_link": "https://example.com/project2",
-      "github_link": "https://github.com/username/project1",
-      "project_image": "/static/images/project1-main.jpg"
+      "project_name": "Project 4: OOP Game Show App",
+      "description": "Create a browser-based, word guessing game: 'Phrase Hunter.' You’ll use JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard. Can they guess the phrase before they run out of attempts?",
+      "technologies": ["Call Back Functions", "Array iteration methods", "Object oriented Javascript"],
+      "live_link": "https://sinjeeli.github.io/OOP-Game-Show-App/",
+      "github_link": "https://github.com/sinjeeli/OOP-Game-Show-App",
+      "project_image": [
+        "/static/images/project4-main.jpg",
+        "/static/images/project4-image1.jpg",
+        "/static/images/project4-image2.jpg",
+        "/static/images/project4-image3.jpg"
+  
+      ]
     },
     {
       "id": 5,
-      "project_name": "Project 2",
-      "description": "Description of Project 2",
-      "technologies": ["Technology C", "Technology D"],
-      "live_link": "https://example.com/project2",
-      "github_link": "https://github.com/username/project2",
-      "project_image": "/static/images/project2-main.jpg"
+      "project_name": "Project 5: Public API Requests",
+      "description": "Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that you can access and display on your own web pages. Using JavaScript, you’ll create an employee directory by communicating with a third-party API (Application Programming Interface).",
+      "technologies": ["GIT", "AJAX", "Fetch API"],
+      "live_link": "https://sinjeeli.github.io/Public-API-Requests/",
+      "github_link": "https://github.com/sinjeeli/Public-API-Requests",
+      "project_image": [
+        "/static/images/project5-main.jpg",
+        "/static/images/project5-image1.jpg",
+        "/static/images/project5-image2.jpg",
+        "/static/images/project5-image3.jpg"
+  
+      ]
     }
   ]
 }
