@@ -4,9 +4,18 @@ block content
   .project-container
     h2= project.project_name
     p= project.description
-    p Technologies: #{project.technologies.join(', ')}
-    a(href=project.live_link, target='_blank') (Live Link)                  
-    a(href=project.github_link, target='_blank') (GitHub Link)
+    
+     if project.technologies.length > 0
+      p Technologies:
+      ul
+        each technology in project.technologies
+          li= technology
+    div.project-links
+      a(href=project.live_link, target='_blank') (Live Link)
+      a(href=project.github_link, target='_blank') (GitHub Link)
+
+
+
     .project-img-box.box
       each image in project.project_image.slice(1)
         img.project-img(src=`${image}`, alt=`Project Image - ${project.project_name}`)
