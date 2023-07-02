@@ -17,21 +17,33 @@
     },
     {
       "id": 2,
-      "project_name": "Project 1",
-      "description": "Description of Project 1",
-      "technologies": ["Technology A", "Technology B"],
-      "live_link": "https://example.com/project2",
-      "github_link": "https://github.com/username/project1",
-      "project_image": "/static/images/project1-main.jpg"
+      "project_name": "Project 2: Data Pagination and Filtering",
+      "description": "Displaying a large amount of data on a web page, like a list of 200 movie titles or 400 products, can overwhelm a user with too much information at once. A common solution is to create separate “pages” that each display a small portion of the data. In this project, you'll write JavaScript to display several “pages” of student data that the user can easily navigate and view.",
+      "technologies": ["DOM", "Filtering", "Data Pagination"],
+      "live_link": "https://sinjeeli.github.io/Data-Pagination-and-Filtering/",
+      "github_link": "https://github.com/sinjeeli/Data-Pagination-and-Filtering",
+      "project_image": [
+        "/static/images/project2-main.jpg",
+        "/static/images/project2-image1.jpg",
+        "/static/images/project2-image2.jpg",
+        "/static/images/project2-image3.jpg"
+  
+      ]
     },
     {
       "id": 3,
-      "project_name": "Project 1",
-      "description": "Description of Project 1",
-      "technologies": ["Technology A", "Technology B"],
-      "live_link": "https://example.com/project2",
-      "github_link": "https://github.com/username/project1",
-      "project_image": "/static/images/project1-main.jpg"
+      "project_name": "Project 3: Interactive-Form",
+      "description": "Full Stack JavaScript developers create forms to collect information from users for nearly every website and application they build. For this project, you’ll use your skills to enhance a form so that it’s engaging, interactive, and easy to use.",
+      "technologies": ["HTML", "Javascript conditionals", "String Manipulations", "Regular Expressions"],
+      "live_link": "https://sinjeeli.github.io/Interactive-Form/",
+      "github_link": "https://github.com/sinjeeli/Interactive-Form",
+      "project_image": [
+        "/static/images/project3-main.jpg",
+        "/static/images/project3-image1.jpg",
+        "/static/images/project3-image2.jpg",
+        "/static/images/project3-image3.jpg"
+  
+      ]
     },
     {
       "id": 4,
