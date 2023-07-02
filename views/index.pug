@@ -2,8 +2,7 @@ extends layout
 
 block content
   article.portfolio-intro
-    h1 My Portfolio
-    p Welcome to Sheridan Injeeli's coding portfolio! As a skilled and passionate coder, Sheridan brings creativity, dedication, and a strong problem-solving mindset to every project. With a diverse range of programming languages, frameworks, and technologies in their toolkit, Sheridan has the ability to develop innovative solutions for various industries and challenges. From web development to mobile applications, Sheridan's portfolio showcases their expertise in delivering high-quality, user-centric experiences. With a keen eye for design and a commitment to writing clean, efficient code, Sheridan's projects demonstrate their ability to transform ideas into functional and visually appealing applications. Explore Sheridan's portfolio to witness their coding prowess and see how they can bring your digital visions to life.
+    // Intro content...
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
@@ -11,5 +10,4 @@ block content
         .cell
           h2= project.project_name
           a(href=`/project/${project.id}`)
-            each image in project.project_image
-              img.thumbnail(src=`${image}`, alt=`Thumbnail - ${project.project_name}`)
+            img.thumbnail(src=`${project.project_image[0]}`, alt=`Thumbnail - ${project.project_name}`)
