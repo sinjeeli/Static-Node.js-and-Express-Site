@@ -1,0 +1,23 @@
+{
+    "projects": [
+      {
+        "id": 0,
+        "project_name": "Project 1",
+        "description": "Description of Project 1",
+        "technologies": ["Technology A", "Technology B"],
+        "live_link": "https://example.com/project1",
+        "github_link": "https://github.com/username/project1",
+        "image_urls": ["/static/images/project1-main.jpg", "/static/images/project1-image1.jpg"]
+      },
+      {
+        "id": 1,
+        "project_name": "Project 2",
+        "description": "Description of Project 2",
+        "technologies": ["Technology C", "Technology D"],
+        "live_link": "https://example.com/project2",
+        "github_link": "https://github.com/username/project2",
+        "image_urls": ["/static/images/project2-main.jpg", "/static/images/project2-image1.jpg"]
+      }
+    ]
+  }
+  
