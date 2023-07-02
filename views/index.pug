@@ -9,6 +9,6 @@ block content
     .projects-box.box.grid
       each project in projects
         .cell
+          h2= project.project_name
           a(href=`/project/${project.id}`)
             img.thumbnail(src=`/static/images/project${project.id}-main.jpg`, alt=`Thumbnail - ${project.project_name}`)
-          

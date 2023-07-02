@@ -2,15 +2,48 @@
   "projects": [
     {
       "id": 1,
+      "project_name": "Project 1: Random Quote Generator",
+      "description": "Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button.",
+      "technologies": ["Loops","Arrays", "Objects"],
+      "live_link": "https://sinjeeli.github.io/My-Repo/",
+      "github_link": "https://github.com/sinjeeli/My-Repo",
+      "project_image": [
+      "/static/images/project1-main.jpg",
+      "/static/images/project1-image1.jpg",
+      "/static/images/project1-image2.jpg",
+      "/static/images/project1-image3.jpg"
+
+    ]
+    },
+    {
+      "id": 2,
       "project_name": "Project 1",
       "description": "Description of Project 1",
       "technologies": ["Technology A", "Technology B"],
-      "live_link": "https://example.com/project1",
+      "live_link": "https://example.com/project2",
       "github_link": "https://github.com/username/project1",
       "project_image": "/static/images/project1-main.jpg"
     },
     {
-      "id": 2,
+      "id": 3,
+      "project_name": "Project 1",
+      "description": "Description of Project 1",
+      "technologies": ["Technology A", "Technology B"],
+      "live_link": "https://example.com/project2",
+      "github_link": "https://github.com/username/project1",
+      "project_image": "/static/images/project1-main.jpg"
+    },
+    {
+      "id": 4,
+      "project_name": "Project 1",
+      "description": "Description of Project 1",
+      "technologies": ["Technology A", "Technology B"],
+      "live_link": "https://example.com/project2",
+      "github_link": "https://github.com/username/project1",
+      "project_image": "/static/images/project1-main.jpg"
+    },
+    {
+      "id": 5,
       "project_name": "Project 2",
       "description": "Description of Project 2",
       "technologies": ["Technology C", "Technology D"],
