@@ -18,10 +18,11 @@ app.get('/', (req, res) => {
   
   app.get('/project/:id', (req, res) => {
     const projectId = req.params.id;
-    const project = data.projects[projectId];
+    const projectIndex = projectId - 1; // Subtract 1 from the projectId to get the correct index
+    const project = data.projects[projectIndex];
     res.render('project', { project, projectImage: project.project_image });
-
   });
+  
   //
   
 //

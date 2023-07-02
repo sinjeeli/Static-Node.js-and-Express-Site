@@ -1,23 +1,22 @@
 {
-    "projects": [
-      {
-        "id": 0,
-        "project_name": "Project 0",
-        "description": "Description of Project 0",
-        "technologies": ["Technology A", "Technology B"],
-        "live_link": "https://example.com/project1",
-        "github_link": "https://github.com/username/project1",
-        "project_image": "/static/images/project0-main.jpg"
-      },
-      {
-        "id": 1,
-        "project_name": "Project 1",
-        "description": "Description of Project 1",
-        "technologies": ["Technology C", "Technology D"],
-        "live_link": "https://example.com/project2",
-        "github_link": "https://github.com/username/project2",
-        "project_image": "/static/images/project1-main.jpg"
-      }
-    ]
-  }
-  
+  "projects": [
+    {
+      "id": 1,
+      "project_name": "Project 1",
+      "description": "Description of Project 1",
+      "technologies": ["Technology A", "Technology B"],
+      "live_link": "https://example.com/project1",
+      "github_link": "https://github.com/username/project1",
+      "project_image": "/static/images/project1-main.jpg"
+    },
+    {
+      "id": 2,
+      "project_name": "Project 2",
+      "description": "Description of Project 2",
+      "technologies": ["Technology C", "Technology D"],
+      "live_link": "https://example.com/project2",
+      "github_link": "https://github.com/username/project2",
+      "project_image": "/static/images/project2-main.jpg"
+    }
+  ]
+}
