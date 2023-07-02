@@ -22,11 +22,35 @@ app.get('/', (req, res) => {
     res.render('project', { project, projectImage: project.project_image });
 
   });
+  //
+  
+//
+app.get('/test-error', (req, res, next) => {
+  const err = new Error('Test error');
+  err.status = 500;
+  next(err);
+});
+
+// 404 handler
+app.use((req, res, next) => {
+  const err = new Error('Not Found');
+  err.status = 404;
+  next(err);
+});
+
+// Global error handler
+app.use((err, req, res, next) => {
+  err.status = err.status || 500;
+  err.message = err.message || 'Internal Server Error';
+  console.error(`Error (${err.status}): ${err.message}`);
+  res.status(err.status).render('error', { error: err });
+});
+
+//
+
 
   //
   const port = 3000;
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
-
-//

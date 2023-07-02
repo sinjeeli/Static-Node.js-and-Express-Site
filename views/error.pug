@@ -1,0 +1,5 @@
+extends layout
+
+block content
+  h1= error.message
+  p= error.status === 404 ? 'The requested page could not be found.' : 'An unexpected error occurred.'

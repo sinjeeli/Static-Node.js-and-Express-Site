@@ -1,28 +1,14 @@
-extends layout.pug
+extends layout
 
 block content
-
   article.portfolio-intro
-
-    //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
-    h1 My thing
-
-    //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p Portfolio description
-
+    h1 My Portfolio
+    p Welcome to Sheridan Injeeli's coding portfolio! As a skilled and passionate coder, Sheridan brings creativity, dedication, and a strong problem-solving mindset to every project. With a diverse range of programming languages, frameworks, and technologies in their toolkit, Sheridan has the ability to develop innovative solutions for various industries and challenges. From web development to mobile applications, Sheridan's portfolio showcases their expertise in delivering high-quality, user-centric experiences. With a keen eye for design and a commitment to writing clean, efficient code, Sheridan's projects demonstrate their ability to transform ideas into functional and visually appealing applications. Explore Sheridan's portfolio to witness their coding prowess and see how they can bring your digital visions to life.
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
-
-      //- Use the Pug `each` iterator to loop over the projects in your data file  
-      
-        //- Use the example Pug code below and interpolated template literals as needed to dynamically generate:
-          //- The paths in the link's href and img's src attributes
-          //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
-          //- The project title for the h5 element's text
-
+      each project in projects
         .cell
-          a(href='#')
-            img.thumbnail(src='https://placehold.it/550x550', alt='')
-            h5 My Site
-
+          a(href=`/project/${project.id}`)
+            img.thumbnail(src=`/static/images/project${project.id}-main.jpg`, alt=`Thumbnail - ${project.project_name}`)
+          
