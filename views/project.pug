@@ -5,8 +5,12 @@ block content
     h2= project.project_name
     p= project.description
     p Technologies: #{project.technologies.join(', ')}
-    a(href=project.live_link, target='_blank') Live Link
-    a(href=project.github_link, target='_blank') GitHub Link
+    a(href=project.live_link, target='_blank') (Live Link)                  
+    a(href=project.github_link, target='_blank') (GitHub Link)
     .project-img-box.box
-      //- Replace the URLs in the src attributes below with interpolated template literals to dynamically add your project images, and add descriptions to the alt attributes
-      img.project-img(src=`${projectImage}`, alt=`Project Image - ${project.project_name}`)
+      each image in project.project_image.slice(1)
+        img.project-img(src=`${image}`, alt=`Project Image - ${project.project_name}`)
+
+    nav.nav
+      a(href='/')
+        span &larr; Back
