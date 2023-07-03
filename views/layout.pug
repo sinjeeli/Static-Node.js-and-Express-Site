@@ -12,29 +12,23 @@ html(lang="en" dir="ltr")
   body
     #my-info.sidebar
       .sidebar-info-box
-        br
         .thumbnail-box
-          img.thumbnail(src="/static/images/profile-pic.jpg", alt='')
+          img.thumbnail(src="/static/images/profile-pic.jpg", alt='Profile Picture of Sheridan')
+        
         .dev-intro-box
-
-          //- Replace with your name
           h5 Sheridan Injeeli
 
-          //- Replace with description of who you are, what you do, and why you are so awesome
-          p Sheridan Injeeli is an aspiring learner of coding, specifically focusing on JavaScript. With an eagerness to expand their knowledge and skills in the world of programming, Sheridan is dedicated to continuously improving and growing as a developer. Driven by curiosity and a passion for problem-solving, Sheridan embraces challenges and approaches them with a positive mindset. Their enthusiasm for learning fuels their motivation to explore various concepts, techniques, and best practices in JavaScript development. Sheridan's commitment to continuous learning is reflected in their proactive approach to staying up-to-date with the latest trends and advancements in the JavaScript ecosystem. Whether it's diving into new frameworks, libraries, or experimenting with innovative coding techniques, Sheridan is always eager to explore and expand their skill set. With a strong foundation in JavaScript and a hunger for knowledge, Sheridan embraces new opportunities to apply their coding skills and contribute to meaningful projects. Through their dedication, adaptability, and eagerness to learn, Sheridan is on a journey to become a proficient JavaScript developer and make a positive impact in the world of coding.
+          p Sheridan Injeeli is an aspiring learner of coding, specifically focusing on JavaScript
 
-
-          //- Add path from your '/about' route handler to the href below
-          a(href='/about') Learn More &rarr;
+          a(href="/about") Learn More &rarr;
 
     .wrapper
       .header
         .header-info-box
-          button#menu-icon.menu-icon(type='button' data-toggle='my-info')
+          button#menu-icon.menu-icon(type="button" data-toggle="my-info")
 
-          //- Replace with your name — this is for the mobile layout
           span Sheridan
 
       block content
 
-  script(src='/static/js/script.js')
+  script(src="/static/js/script.js")
