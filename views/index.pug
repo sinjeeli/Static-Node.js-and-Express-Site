@@ -1,4 +1,4 @@
-extends layout
+extends layout.pug
 
 block content
   article.portfolio-intro
@@ -10,7 +10,6 @@ block content
     .projects-box.box.grid
       each project in projects
         .cell
-          h2= project.project_name
-          a(href=`/project/${project.id}`)
-            img.thumbnail(src=`${project.project_image[0]}`, alt=`Thumbnail - ${project.project_name}`)
-//
+          a(href="project/" + project.id)
+            img.thumbnail(src= project.image_urls[0], alt= "Thumbnail of " + project.project_name)
+            h5= project.project_name
