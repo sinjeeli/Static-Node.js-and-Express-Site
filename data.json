@@ -7,11 +7,11 @@
       "technologies": ["Loops","Arrays", "Objects"],
       "live_link": "https://sinjeeli.github.io/My-Repo/",
       "github_link": "https://github.com/sinjeeli/My-Repo",
-      "project_image": [
-      "/static/images/project1-main.jpg",
-      "/static/images/project1-image1.jpg",
-      "/static/images/project1-image2.jpg",
-      "/static/images/project1-image3.jpg"
+      "image_urls": [
+        "/static/images/project1-main.jpg",
+        "/static/images/project1-image1.jpg",
+        "/static/images/project1-image2.jpg",
+        "/static/images/project1-image3.jpg"
 
     ]
     },
@@ -22,7 +22,7 @@
       "technologies": ["DOM", "Filtering", "Data Pagination"],
       "live_link": "https://sinjeeli.github.io/Data-Pagination-and-Filtering/",
       "github_link": "https://github.com/sinjeeli/Data-Pagination-and-Filtering",
-      "project_image": [
+      "image_urls": [
         "/static/images/project2-main.jpg",
         "/static/images/project2-image1.jpg",
         "/static/images/project2-image2.jpg",
@@ -37,7 +37,7 @@
       "technologies": ["HTML", "Javascript conditionals", "String Manipulations", "Regular Expressions"],
       "live_link": "https://sinjeeli.github.io/Interactive-Form/",
       "github_link": "https://github.com/sinjeeli/Interactive-Form",
-      "project_image": [
+      "image_urls": [
         "/static/images/project3-main.jpg",
         "/static/images/project3-image1.jpg",
         "/static/images/project3-image2.jpg",
@@ -52,7 +52,7 @@
       "technologies": ["Call Back Functions", "Array iteration methods", "Object oriented Javascript"],
       "live_link": "https://sinjeeli.github.io/OOP-Game-Show-App/",
       "github_link": "https://github.com/sinjeeli/OOP-Game-Show-App",
-      "project_image": [
+      "image_urls": [
         "/static/images/project4-main.jpg",
         "/static/images/project4-image1.jpg",
         "/static/images/project4-image2.jpg",
@@ -67,7 +67,7 @@
       "technologies": ["GIT", "AJAX", "Fetch API"],
       "live_link": "https://sinjeeli.github.io/Public-API-Requests/",
       "github_link": "https://github.com/sinjeeli/Public-API-Requests",
-      "project_image": [
+      "image_urls": [
         "/static/images/project5-main.jpg",
         "/static/images/project5-image1.jpg",
         "/static/images/project5-image2.jpg",
